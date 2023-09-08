@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.df{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+
+
+.header{
+    background-color: #2E2E2E;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header_nav_item{
+    margin-right: 50px;
+}
+.header_nav_link{
+    color:white;
+    text-decoration: none;
+}
+.header_icons_link{
+    text-decoration: none;
+    margin-left: 15px;
+}
+.header_icons_link>img{
+    width: 25px;
+}
+
+/* ------------cayalog */
+.catalog{
+    background-color: #0C0C0C;
+    padding: 120px 5px;
+}
+
+.tovar_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tovar_item{
+    margin: 5px;
+}
+.tovar_item_img>img{
+    width: 100%;
+}
+.tovar_item_description{
+    color:white;
+    font-weight: 700;
+}
+.tovar_item_price{
+    color:#8E8DE5;
+    font-weight: 800;
+}
+.tovar_item_button{
+    background-color: #5351B5;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+
+}
+
+/* -------------footer */
+.footer{
+    background-color: #2E2E2E;
+    
+}
+.footer_inner{
+    display: flex;
+    align-items: center;
+}
+.footer_logo{
+    margin-right: 100px;
+}
+
+/* -----------page item.html */
+/* ---------tovar */
+.tovar{
+    background-color: #0C0C0C;
+    color:white;
+    padding: 120px 5px;
+}
+.tovar_img>img{
+    max-width: 400px;
+}
+.tovar_description{
+    margin-left: 60px;
+}
+.tovar_name{
+    font-size: 26px;
+    font-weight: 800;
+}
+.tovar_price{
+    color:#8E8DE5;
+    font-weight: 800;
+    font-size: 24px;
+}
+.tovar_button{
+    color: #5351B5;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* --------------page add.html */
+/* -----------form */
+.form{
+    background-color: #0C0C0C;
+    padding: 120px 5px;
+}
+.form_inner{
+    max-width: 400px;
+    margin: auto;
+}
+.form_inner>h2{
+    margin: 0;
+    color:white;
+    text-align: center;
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+}
+.form_div>label{
+    color:white;
+    margin-bottom: 3px;
+}
+.form_div>input,
+.form_div>textarea{
+    border:2px solid #5351B5;
+    background-color: #0C0C0C;
+    padding: 10px;
+    color:white;
+    margin-bottom: 14px;
+    border-radius: 3px;
+    resize : none;
+}
+.form_div>input[type="submit"]{
+    background-color: #5351B5;
+    
+}

@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    list-style: none; 
+    outline: none; 
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+.container{ 
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Spectral', sans-serif;
+    padding-bottom: 60px;
+}
+/*начало блока хедер*/
+.logo{ 
+    width: 10%; 
+} 
+.header{ 
+    padding: 40px; 
+} 
+.header-content{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+.header-menu{ 
+    display: flex; 
+    gap: 80px; 
+    font-size: 16px; 
+} 
+.header-link{ 
+    color: black; 
+    transition: all ease-in-out 0.2s; 
+} 
+.header-link:hover{ 
+    font-weight: 600; 
+} 
+/*конец блока хедер*/
+/*начало блока баннер*/
+.banner{
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    background: rgba(52, 198, 189, 0.8);
+    color: #FFFF;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+    height: 250px;
+}
+.title{
+    font-family: 'Spectral', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.podtitle{
+    font-size: 20px;
+}
+/*конец блока баннер*/
+/*начало блока курорт*/
+.curort{
+    padding: 120px 0;
+    background-image: url(img/сurort-fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.curort-text{
+    position: relative;
+    bottom: 250px;
+    left: 25%;
+    width: 650px;
+    height: 168px;
+    background: #FFFFFF;
+    color: #896F50;
+    text-align: justify;
+    font-size: 16px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 15px;
+}
+.uzor-img{
+    position: relative;
+    left: 10%;
+}
+.btn{
+    position: relative;
+    left: 78%;
+    bottom: 20px;
+}
+.line{
+    background: #B58C5D;
+    width: 269px;
+    height: 2px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/*конец блока курорт*/
+/*начало блока каталог*/
+.catalog{
+    height: 550px;
+}
+.tittle{
+    color: #0000;
+    display: flex;
+    justify-content: center;
+}
+/*конец блока каталог*/
+/*начало блока отзывы*/
+.reviews{
+    padding: 90px 0;
+    background-color: #B58C5D;
+    background-image: url(img/OBJECTS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.title{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.rev-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.arr{
+    object-fit: none;
+}
+.text-arrows{
+    display: flex;
+    width: 500px;
+}
+/*конец блока отзывы*/
+/*начало блока футер*/
