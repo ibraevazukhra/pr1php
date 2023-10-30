@@ -1,0 +1,32 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.sm1_1{
+    font-size: 16px;
+    color: darkblue;
+}
+.sm1_2{
+    font-size: 14px;
+    color: darkblue;
+}
+.block{
+    border: 1px solid darkblue;
+    padding: 20px 30px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block_2{
+    display: flex;
+    gap: 20px;
+}
+.school_name{
+    width: 300px;
+    color: darkblue;
+}
